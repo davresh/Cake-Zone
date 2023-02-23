@@ -1,0 +1,32 @@
+@import '../../assets/style/mixin.scss';
+.discount-box{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #E88F2A;
+    outline: 15px solid #E88F2A;
+    border: 1px solid white;
+    text-align: center;
+    padding: 40px 0;
+    @include screen(991px){
+        width: 40%;
+        margin: 20px 5%;   
+    }
+    @include screen(767px){
+        width: 310px;
+    }
+    h2{
+        color: #2B2825;
+    }
+    p{
+        color: white;
+        padding: 30px 10px;
+        font-size: 19px;
+    }
+    button{
+        border: none;
+        font-size: 18px;
+        background-color: #E88F2A;
+    }
+}

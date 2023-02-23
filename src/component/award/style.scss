@@ -1,0 +1,17 @@
+@import '../../assets/style/mixin.scss';
+.award-list{
+    width: 48%;
+    margin-top: 40px;
+    span{
+        color: white;
+        background-color: #E88f2a;
+        font-size: 35px;
+        padding: 20px;
+        outline: 10px solid #E88f2a ;
+        border: 1px solid white;
+        margin-left: 10px;
+    }
+    h2{
+        margin: 40px 0 15px 0;
+    }
+}

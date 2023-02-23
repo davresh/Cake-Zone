@@ -1,0 +1,83 @@
+@import '../../assets/style/mixin.scss';
+.holiday{
+    width: 100%;height: 70px;
+    display: flex;
+    justify-content: center;
+    @include screen(567px){
+        height: 200px;
+    }
+    .holiday-box{
+        width: 450px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #2B2825;
+        border: 1px solid white;
+        outline: 10px solid #2B2825;
+        @include screen(567px){
+            width: 310px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        button{
+            cursor: pointer;
+            height: fit-content;
+            font-size: 20px;
+            background-color: #E88f2a;
+            color: white;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            @include screen(567px){
+                width: 90%;
+            }
+        }
+    }
+}
+.holiday-cake{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0;
+    font-family: "Oswald",sans-serif;
+    @include screen(991px){
+        justify-content: center;
+    }
+}
+.offer-box{
+    width: 100%;height: 500px;
+    background: no-repeat center/cover;
+    margin: 50px 0;
+    .offer{
+        width: 100%;height: 100%;
+        background: linear-gradient(rgba(43, 40, 37, .9), rgba(43, 40, 37, .9));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .offer-top{
+            width: 700px;
+            text-align: center;
+            .offer-h1{
+                color: white;
+            }
+            p{
+                color: white;
+                font-size: 19px;
+            }
+            .buttons-offer{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+                button{
+                    margin: 0 20px;
+                }
+                .bord-button{
+                    background-color: #2B2825;
+                    outline-color: #2B2825;
+                }
+            }
+        }
+    }
+}

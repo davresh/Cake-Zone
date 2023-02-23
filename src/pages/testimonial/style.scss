@@ -1,0 +1,37 @@
+@import '../../assets/style/mixin.scss';
+.testimonal-box-carusel{
+    width: 80%;height: 300px;
+    overflow: hidden;
+    margin: 0 auto; 
+    @include screen(767px){
+        width: 510px;   
+    }
+    @include screen(567px){
+        width: 310px;
+    }
+    .box-carusel{
+        width: 3200px;
+        display: flex;
+        justify-content: left;
+        @include screen(767px){
+            width: 3600px;
+        }
+    }
+    .slider-btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .slid-check{
+            width: 10px;
+            height: 30px;
+            background-color: #656565;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        .slid-check-btn{
+            height: 40px;
+            background-color: #E88f2a;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+@import '../icons/style.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .3s;
+}
+input,button{
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+html{
+    scroll-behavior: smooth;
+}
+.menu-site-box{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.button-click{   
+    font-size: 20px;
+    padding: 5px 25px;
+    background-color: #E88f2a;
+    color: white;
+    outline: 10px solid #E88f2a;
+    border: 1px solid white;
+    cursor: pointer;
+    &:hover{
+        color: black;
+        background-color: #ff9f31;
+        outline-color:#ff9f31;
+    }
+}
+.hr-box{
+    width: 100%;
+    margin: 20px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .hr{
+        width: 200px;
+        height: 2px;
+        background-color: #E88f2a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div{
+            width: 70px;
+            background-color: #E88f2a;
+            height: 12px;
+    
+        }
+    }
+}
+.crispy{
+    font-family: 'Pacifico', cursive;
+    color: #E88f2a;
+    font-weight: 700;
+    font-size: 35px
+}
+.offer-h1{
+    font-size: 50px;
+}

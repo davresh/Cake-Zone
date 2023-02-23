@@ -1,0 +1,36 @@
+@import '../../assets/style/mixin.scss';
+.holiday-cake-box{
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0;
+    background-color: #FAF3EB;
+    margin-bottom: 20px;
+    @include screen(991px){
+        width: 90%;
+    }
+    .holiday-img{
+        width: 150px;
+        height: 121px;
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .holiday-val{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #2B2825;
+            color: #E88F2A;
+            font-weight: 800;
+            font-size: 25px;
+        }
+    }
+    .holiday-text{
+        width: 73%;
+        text-align: left;
+        padding: 10px;
+    }
+}

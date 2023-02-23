@@ -1,0 +1,74 @@
+@import '../../assets/style/mixin.scss';
+.contact-us{
+    width: 100%;height: 600px;
+    background: no-repeat center/cover;
+    margin: 150px 0 70px 0 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @include screen(991px){
+        padding: 0 50px;
+        height: 900px;
+    }
+    @include screen(767px){
+        height: 1100px;
+    }
+    .contact-date{
+        width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+        top: -90px;
+        @include screen(767px){
+            justify-content: center;
+        }
+    }
+    .contact-buttons{
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        top: -70px;
+        @include screen(567px){
+            width: 320px;
+        }
+        div{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            input{
+                height: fit-content;
+                font-size: 19px;
+                padding: 15px 10px;
+                cursor: initial;
+            }
+            textarea{
+                padding: 15px 10px;
+                font-size: 20px;
+                height: 120px;
+                outline: 0;
+            }
+            button{
+                background-color: #E88f2a;
+                color: white;
+                border: 1px solid #fff;
+                outline: 10px solid #E88f2a;
+            }
+            .w-100{
+                width: 100%;
+            }
+            .w-50{
+                width: 230px;
+                @include screen(567px){
+                    width: 100%;
+                }
+            }
+        }
+        .col-out{
+            padding: 10px;
+        }
+    }
+}

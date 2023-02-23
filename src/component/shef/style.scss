@@ -1,0 +1,70 @@
+@import '../../assets/style/mixin.scss';
+.shef-power{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @include screen(991px){
+        width: 45%;
+        margin: 0 2.5%;   
+    }
+    @include screen(767px){
+        width: 80%;
+    }
+    .shef-boxs-img{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        .shef-soc-site{
+            width: 100%;
+            height: 100%;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            display: none;
+            span{
+                color: white;
+                background-color: #E88D28;
+                margin: 0 15px;
+                font-size: 25px;
+                padding: 5px;
+                border: 1px solid #fff;
+                outline: 10px solid #E88D28;
+                cursor: pointer;
+            }
+        }
+        img{
+            width: 100%;
+        }
+        &:hover .shef-soc-site{
+            display: flex;
+        }
+        &:hover img{
+            filter: blur(5px);
+            transform: scale(1.1);
+        }
+    }
+    .shef-boxs-inf{
+        width: 100%;
+        background-color: #2B2825;
+        padding: 10px;
+        position: relative;
+        top: -5px;
+        div{
+            width: 100%;
+            border: 1px solid #fff;
+            padding: 20px 0;
+            h2{
+                color: #E88D28;
+            }
+            h4{
+                color: white;
+            }
+        }
+    }
+}

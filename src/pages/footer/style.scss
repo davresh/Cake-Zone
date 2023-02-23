@@ -1,0 +1,152 @@
+@import '../../assets/style/mixin.scss';
+.footer{
+    width: 100%;height: 350px;
+    background: no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    @include screen(991px){
+       height: 800px;
+    }
+    @include screen(567px){
+        height: 1200px;
+    }
+    .footer-box{
+        width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        @include screen(991px){
+            justify-content: center;
+        }
+        .cake-zone-box{
+            width: 30%;height: 100%;
+            background-color: #E88F2A;
+            padding: 10px;
+            @include screen(567px){
+                width: 90%;
+            }
+            div{
+                width: 100%;height: 330px;
+                background-color: #E88F2A;
+                border: 1px solid white;
+                text-align: center;
+                line-height: 25px;
+                padding: 40px 10px;
+                color: white;
+                @include screen(991px){
+                    height: 780px;
+                }
+                @include screen(567px){
+                    height: auto;
+                }
+                p{
+                    font-size: 19px;
+                    margin-top: 10px;
+                }
+                h1{
+                    span{
+                        color: black;
+                        font-size: 50px;
+                    }
+                }
+            }
+        }
+        .get-in-contact{
+            width: 70%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            @include screen(991px){
+                width: 40%;
+            }
+            @include screen(567px){
+                width: 90%;
+            }
+            .contact-box{
+                width: 33%;
+                text-align: left;
+                padding: 25px 0 0 15px;
+                @include screen(991px){
+                    width: 100%;
+                }
+                @include screen(567px){
+                    width: 100%;
+                }
+                h2{
+                    color: #E88F2A;
+                }
+                p{
+                    color: white;
+                    font-size: 19px;
+                    margin: 18px 0;
+                    span{
+                        margin-right: 8px;
+                        color: #E88F2A;
+                        cursor: pointer;
+                    }
+
+                }
+                .get-email-add{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    input{
+                        border: none;
+                        height: 50px;
+                        font-size: 21px;
+                        width: 120px;
+                        padding: 0 5px;
+                        cursor: initial;
+                    }
+                    .get-email{
+                        padding: 13.5px 10px;
+                        background-color: #E88D28;
+                        color: white;
+                        font-size: 20px;
+                        cursor: pointer;
+                        &:hover{
+                            opacity: 0.8;
+                            color: black;
+                        }
+                    }
+                }
+
+                .soc-site-box{
+                    width: 100%;
+                    margin-top: 25px;
+                    span{
+                        color: white;
+                        background-color: #E88D28;
+                        margin: 0 15px;
+                        font-size: 25px;
+                        padding: 5px;
+                        border: 1px solid #fff;
+                        outline: 10px solid #E88D28;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+.footer-bottom{
+    width: 100%;height: 70px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include screen(567px){
+        padding: 0 10px;
+        text-align: center;
+    }
+    p{
+        color: white;
+        font-size: 19px;
+        a{
+            color: white;
+        }
+    }
+}

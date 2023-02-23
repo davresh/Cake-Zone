@@ -1,0 +1,5 @@
+@mixin screen($wid){
+    @media (max-width:$wid) {
+        @content;
+    };
+};

@@ -1,0 +1,45 @@
+@import '../../assets/style/mixin.scss';
+.client{
+    width: 350px;
+    background-color: #2B2825;
+    outline: 10px solid #2B2825;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px 30px;
+    @include screen(767px){
+        width: 310px;
+    }
+    .client-user{
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        .client-img{
+            width: 60px;
+            height: 60px;
+            img{
+                width: 100%;
+            }
+        }
+        .client-name{
+            text-align: left;
+            padding: 5px 10px;
+            h2{
+                color: #E88727;
+            }
+            h3{
+                color: white;
+            }
+        }
+    }
+    .client-text{
+        width: 100%;
+        padding: 10px 0;
+        p{
+            color: white;
+            text-align: justify;
+        }
+    }
+}

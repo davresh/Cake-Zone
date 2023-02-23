@@ -1,0 +1,10 @@
+@import '../../assets/style/mixin.scss';
+.about-user-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @include screen(767px){
+        justify-content: center;
+    }
+}

@@ -1,0 +1,127 @@
+@import '../../assets/style/mixin.scss';
+.header{
+    width: 100%;height: 80px;
+    background-color: #2B2825;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition: position .3s;
+    @include screen(991px){
+        overflow: hidden;
+    }
+    .header-menu-bar{
+        width: 991px;height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:  0 10px;
+        display: none;
+        @include screen(991px){
+            display: flex;
+        }
+        h1{
+            color: white;
+            span{
+                color: #E88F2A;
+                margin-right: 10px;
+            }
+        }
+        .icon-menu{
+            color: white;
+            border: 1px solid #fff;
+            padding: 10px 15px;
+            font-size: 25px;
+            cursor: pointer;
+        }
+    }
+    .link-box{
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       list-style-type: none;
+       color: white;
+       position: relative;
+       @include screen(991px){
+            height: 320px;
+            flex-direction: column;
+            background-color: #2B2825;
+            padding-left: 10px;
+
+       }
+       .link-page{
+            margin: 0 5px;
+            font-weight: 600;
+            font-size: 18px;
+            cursor: pointer;
+            transition: all .4s;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+            @include screen(991px){
+                padding: 15px 0;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+                transition: all .4s;
+                &:hover{
+                    color: #E88F2A;
+                }
+            }
+            .active{
+                color: #E88F2A;
+                }
+            
+       }
+       .wraper-link{
+            height: 66px;
+            line-height: 30px;
+            background-color: #fff;
+            list-style-type: none;
+            position: absolute;
+            bottom: -95px;
+            text-align: left;
+            padding: 0 30px 0 10px;
+            @include screen(991px){
+                bottom: initial;
+                left: 130px;
+            }
+            li{
+                a{
+                    color: black;
+                }
+                .active{
+                    color: #E88F2A;
+                }
+            }
+        }
+    }
+
+}
+.to-top-btn{
+    width: 40px;
+    height: 70px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    font-size: 25px;
+    outline: 15px solid #E88F2A;
+    border: 1px solid #fff;
+    position: fixed;
+    background-color: #E88F2A;
+    bottom: 15px;
+    right: 40px;
+    z-index: -1;
+    opacity: 0;
+}
+.to-top-visible{
+    opacity: 1;
+    z-index: 10;
+}
+.header-fix{
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+}

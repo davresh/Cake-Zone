@@ -1,0 +1,30 @@
+@import '../../assets/style/mixin.scss';
+.contact-min-box{
+    width: 300px;
+    height: 200px;
+    background-color: #E88f2a;
+    border: 1px solid #fff;
+    outline: 10px solid #E88f2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @include screen(991px){
+        margin: 0 0 30px 0;
+    }
+    @include screen(767px){
+        width: 500px;
+    }
+    @include screen(567px){
+        width: 310px;
+    }
+    span{
+        font-size: 40px;
+    }
+    p{
+        color: white;
+    }
+    h3{
+        margin: 15px 0;
+    }
+}

@@ -1,0 +1,38 @@
+@import '../../assets/style/mixin.scss';
+.cake-box-about{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @include screen(991px){
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .cake-img-about{
+        width: 40%;
+        @include screen(991px){
+            width: 70%;
+            
+        }
+        img{
+            width: 100%;
+        }
+    }
+    .about-cake{
+        width: 58%;
+        text-align: left;
+        @include screen(991px){
+            width: 70%;
+        }
+        .block-award{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        p{
+            font-size: 19px;
+            color: #656565;
+        }
+    }
+}

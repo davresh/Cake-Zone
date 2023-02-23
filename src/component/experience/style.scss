@@ -1,0 +1,58 @@
+@import '../../assets/style/mixin.scss';
+.experience{
+    width: 100%;height: 300px;
+    background: no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    @include screen(991px){
+        height: 400px;   
+    }
+    @include screen(767px){
+       height: 500px;
+       padding-left: 20px;
+    }
+    .exper-boxs{
+        width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        @include screen(991px){
+            justify-content: center;
+        }
+        .exper-block{
+            width: 24%;
+            display: flex;
+            align-items: center;
+            color: white;
+            @include screen(991px){
+                width: 48%;
+            }
+            @include screen(767px){
+                width: 100%;
+                margin: 20px 0;
+            }
+            div{
+                &:last-child{
+                    margin-left: 15px;
+                }
+                span{
+                    color: white;
+                    padding: 10px 13px;
+                    background-color: #E88f2a;
+                    font-size: 25px;
+                    border: 1px solid #fff;
+                    margin: 10px;
+                    outline: 10px solid #E88f2a;
+                }
+                h3{
+                    color: #E88f2a;
+                }
+                h1{
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
