@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Cake-Zone/static/css/main.ca6678f3.css",
+    "main.js": "/Cake-Zone/static/js/main.14670900.js",
+    "static/media/hero.jpg": "/Cake-Zone/static/media/hero.1f3d677412e70cf16d6b.jpg",
+    "static/media/offer.jpg": "/Cake-Zone/static/media/offer.277d0d07a9a3f0df8b31.jpg",
+    "static/media/service.jpg": "/Cake-Zone/static/media/service.100ba6da75c40df4fae6.jpg",
+    "static/media/about.jpg": "/Cake-Zone/static/media/about.cff1e3da1f7be51e9820.jpg",
+    "static/media/team-3.jpg": "/Cake-Zone/static/media/team-3.d7ee919f942fd21690fd.jpg",
+    "static/media/bg.jpg": "/Cake-Zone/static/media/bg.23fd31ca827539b60d74.jpg",
+    "static/media/team-1.jpg": "/Cake-Zone/static/media/team-1.e1290582d49608cdf97b.jpg",
+    "static/media/team-2.jpg": "/Cake-Zone/static/media/team-2.b6f1d324b0357d9dfc5a.jpg",
+    "static/media/icomoon.svg?mefxzv": "/Cake-Zone/static/media/icomoon.d298c9f9e940f9432c42.svg",
+    "static/media/icomoon.eot?mefxzv": "/Cake-Zone/static/media/icomoon.00d5ca5b7694f79ba47a.eot",
+    "static/media/icomoon.woff?mefxzv": "/Cake-Zone/static/media/icomoon.50655bdee2fd1eebb9da.woff",
+    "static/media/icomoon.ttf?mefxzv": "/Cake-Zone/static/media/icomoon.e1027ad531b4ceb525ed.ttf",
+    "index.html": "/Cake-Zone/index.html",
+    "main.ca6678f3.css.map": "/Cake-Zone/static/css/main.ca6678f3.css.map",
+    "main.14670900.js.map": "/Cake-Zone/static/js/main.14670900.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca6678f3.css",
+    "static/js/main.14670900.js"
+  ]
+}
