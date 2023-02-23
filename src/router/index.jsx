@@ -2,9 +2,9 @@
 //css
 import './style.scss';
 //hooks
-import React from 'react';
+import React,{ useState } from 'react';
 import { Routes,Route } from 'react-router-dom';
-import { useState } from 'react';
+import Loader from '../loader';
 //components
 import Header from '../pages/header';
 import Home from '../pages/home';
@@ -31,14 +31,20 @@ import testimonial1 from '../assets/image/testimonial-1.jpg';
 import testimonial2 from '../assets/image/testimonial-2.jpg';
 import testimonial3 from '../assets/image/testimonial-3.jpg';
 import testimonial4 from '../assets/image/testimonial-4.jpg';
+import useLoader from '../hooks/useLoader';
+
 
 //Context
 export const myContext = React.createContext()
 function Router() {
+    const {loading} = useLoader()
 
     let [scrollTop,setScrollTop] = useState(0)
     window.onscroll = () => {
         setScrollTop(Math.round(window.scrollY/10))
+    };
+    if(loading){
+        return <Loader/>
     }
     return (
       <>

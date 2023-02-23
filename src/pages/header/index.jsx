@@ -26,7 +26,7 @@ function Header() {
     return (
       <>
         <header 
-          className={`header ${box.scrollTop[0]>=5?'header-fix':''}`}
+          className='header'
           ref={head}
         >
           <div className='header-menu-bar'>

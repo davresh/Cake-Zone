@@ -7,6 +7,9 @@
     justify-content: center;
     align-items: center;
     transition: position .3s;
+    position: sticky;
+    top:0;
+    z-index: 333;
     @include screen(991px){
         overflow: hidden;
     }
