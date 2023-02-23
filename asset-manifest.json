@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cake-Zone/static/css/main.ca6678f3.css",
-    "main.js": "/Cake-Zone/static/js/main.14670900.js",
+    "main.css": "/Cake-Zone/static/css/main.383ba1b8.css",
+    "main.js": "/Cake-Zone/static/js/main.9f89a506.js",
     "static/media/hero.jpg": "/Cake-Zone/static/media/hero.1f3d677412e70cf16d6b.jpg",
     "static/media/offer.jpg": "/Cake-Zone/static/media/offer.277d0d07a9a3f0df8b31.jpg",
     "static/media/service.jpg": "/Cake-Zone/static/media/service.100ba6da75c40df4fae6.jpg",
@@ -15,11 +15,11 @@
     "static/media/icomoon.woff?mefxzv": "/Cake-Zone/static/media/icomoon.50655bdee2fd1eebb9da.woff",
     "static/media/icomoon.ttf?mefxzv": "/Cake-Zone/static/media/icomoon.e1027ad531b4ceb525ed.ttf",
     "index.html": "/Cake-Zone/index.html",
-    "main.ca6678f3.css.map": "/Cake-Zone/static/css/main.ca6678f3.css.map",
-    "main.14670900.js.map": "/Cake-Zone/static/js/main.14670900.js.map"
+    "main.383ba1b8.css.map": "/Cake-Zone/static/css/main.383ba1b8.css.map",
+    "main.9f89a506.js.map": "/Cake-Zone/static/js/main.9f89a506.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca6678f3.css",
-    "static/js/main.14670900.js"
+    "static/css/main.383ba1b8.css",
+    "static/js/main.9f89a506.js"
   ]
 }
